@@ -9,7 +9,7 @@ Gerçekleştirilen işlemler sırasıyla:
 * View'ler oluşturuldu.
 * 'OrderDetail' tablosuna giriş yapıldığında 'Insert' edilmeden önce stock durumunu kontrol eden 
 eğer yeterli ise 'Product' tablosunda stok azaltması ve 'Order' tablosunda toplam tutar
-güncellemesi yapan aksi durumda stok yetersiz ise hiç bir işlem yapmadan hata döndüren Trigger oluşturuldu.
+güncellemesi yapan aksi durumda stok istenilen ürün miktarıdan daha az ise hiç bir işlem yapmadan hata döndüren Trigger oluşturuldu.
 
 ![Diagrams](https://www.linkpicture.com/q/Diagrams.png)
 
